@@ -1,0 +1,10 @@
+.venv/
+.venv-web/
+build/
+dist/
+*.spec
+__pycache__/
+cookie.txt
+data/
+.env
+.DS_Store

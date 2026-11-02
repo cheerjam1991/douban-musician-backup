@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: douban-musician-backup
+    runtime: docker
+    plan: free
+    envVars:
+      - key: SITE_PASSWORD
+        value: douban
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATA_DIR
+        value: /tmp/douban-data
